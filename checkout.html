@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--=============== ICONS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <!--=============== SWIPER CSS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      class="color-style"
+      href="assets/css/colors/color-1.css"
+    />
+    <title>لوقة للملابس الشتوية</title>
+    <style>
+      .footer .container .footer-content .foot .info {
+        padding: 0;
+      }
+      .footer .container .footer-content .foot span {
+        color: var(--first-color);
+        font-size: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+      <div class="head_about">
+        <p>لدينا افضل المنتجات ولدينا افضل العروض</p>
+      </div>
+      <div class="container">
+        <div class="header-content">
+          <h4 class="logo">
+             <a href="index.html">
+              <!-- <i class="fas fa-shopping-bag"></i> متجر Saro1 -->
+              <img class="logo-header" src="assets/img/logo.jpg" alt="" />
+            </a>
+          </h4>
+          <ul class="nav">
+            <span class="fas fa-times close-menu"></span>
+            <li><a href="index.html">الرئيسية</a></li>
+            <li><a href="shop.html">المنتجات المستورده</a></li>
+            <li><a href="shop.html">المستكة المعطره</a></li>
+            <li><a class="active" href="cart.html">السلة</a></li>
+            <li><a href="about.html">معلومات عنا</a></li>
+            <li><a href="contact.html">تواصل معنا</a></li>
+          </ul>
+          <div class="icons">
+            <span class="fas fa-user-alt login"></span>
+            <span class="fas fa-shopping-cart cart">
+              <span class="co-cart">3</span>
+            </span>
+            <span class="fas fa-bars bars"></span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!--=============== CART ===============-->
+    <div class="cart-section" id="cart-section">
+      <span class="fas fa-times close-cart"></span>
+      <h3 class="title">السلة</h3>
+      <div class="cart-content">
+        <div class="cart-item">
+          <div class="item-img">
+            <img src="assets/img/cart-1.png" alt="" />
+          </div>
+          <div class="item-info">
+            <h4 class="title-item">ثلاثية الأبعاد تتحرك الرمال</h4>
+            <p class="item-price">50.22 ر.س</p>
+            <div class="amount">
+              <form action="" class="price-amount">
+                <input type="number" name="" id="" value="1" min="1" max="10" />
+              </form>
+              <a href=""><span class="fas fa-trash delete"></span></a>
+            </div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <div class="item-img">
+            <img src="assets/img/cart-2.png" alt="" />
+          </div>
+          <div class="item-info">
+            <h4 class="title-item">شحن مروحة محمولة USB</h4>
+            <p class="item-price">50.22 ر.س</p>
+            <div class="amount">
+              <form action="" class="price-amount">
+                <input type="number" name="" id="" value="1" min="1" max="10" />
+              </form>
+              <a href=""><span class="fas fa-trash delete"></span></a>
+            </div>
+          </div>
+        </div>
+        <div class="cart-item">
+          <div class="item-img">
+            <img src="assets/img/cart-3.png" alt="" />
+          </div>
+          <div class="item-info">
+            <h4 class="title-item">روبوت كنس ذكي لاسلكي</h4>
+            <p class="item-price">50.22 ر.س</p>
+            <div class="amount">
+              <form action="" class="price-amount">
+                <input type="number" name="" id="" value="1" min="1" max="10" />
+              </form>
+              <a href=""><span class="fas fa-trash delete"></span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="total-content">
+        <h3 class="count-item">منتج : <span class="length">30</span></h3>
+        <h3 class="total">
+          السعر الكلي : <span class="total-price">500ر.س</span>
+        </h3>
+      </div>
+      <a href="cart.html">
+        <button>ادفع الان</button>
+      </a>
+    </div>
+
+    <!--=============== LOGIN ===============-->
+    <div class="login-section" id="login-section">
+      <span class="fas fa-times close-login"></span>
+      <h3 class="title">تسجيل الدخول</h3>
+      <form action="" class="form-login">
+        <div class="form-content">
+          <label for="email">البريد الالكتروني</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="أدخل بريدك الإلكتروني"
+            required
+          />
+        </div>
+        <div class="form-content">
+          <label for="password">الرقم السري</label>
+          <input
+            type="password"
+            name="pass"
+            id="password"
+            placeholder="أدخل  الرقم السري"
+            required
+          />
+        </div>
+        <button>تسجيل الدخول</button>
+        <p class="signup">
+          ليس لديك حساب ؟ <a href="registration.html">انشاء حساب</a>
+        </p>
+      </form>
+    </div>
+
+    <!--=============== CHECKOUT ===============-->
+    <section class="cart-page">
+      <div class="container">
+        <div class="page-content">
+          <h2 class="page-title">اكمال الدفع</h2>
+          <p class="links">
+            <a href="index.html" class="home">السلة</a>
+            <span>></span>
+            <a href="#" class="curent">اكمال الدفع</a>
+          </p>
+        </div>
+        <div class="cart-page-content">
+          <div class="myBag">
+            <form class="form-contact">
+              <div class="item-form">
+                <label for="nameC">الاسم</label>
+                <input
+                  style="background-color: var(--body-color)"
+                  type="text"
+                  name="nameC"
+                  id="nameC"
+                  placeholder="الاسم"
+                />
+              </div>
+              <div class="item-form">
+                <label for="emailC">البريد الالكتروني</label>
+                <input
+                  style="background-color: var(--body-color)"
+                  type="email"
+                  name="emailC"
+                  id="emailC"
+                  placeholder="ادخل بريدك الالكتروني .."
+                />
+              </div>
+              <div class="item-form">
+                <label for="subC">الهاتف</label>
+                <input
+                  style="background-color: var(--body-color)"
+                  type="text"
+                  name="subC"
+                  id="subC"
+                  placeholder="الهاتف ......"
+                />
+              </div>
+              <label for="add">العنوان</label>
+              <textarea
+                style="background-color: var(--body-color)"
+                name="textarea"
+                id="add"
+                placeholder="اكتب العنوان ......"
+              ></textarea>
+              <button type="submit">اكمال الطلب</button>
+            </form>
+          </div>
+          <div class="cacher checkout_info">
+            <h2 class="title-cacher">التكلفة</h2>
+            <div class="caher-box">
+              <h4 class="sub-total">السعر</h4>
+              <p>30.20 ر.س</p>
+            </div>
+            <div class="caher-box">
+              <h4 class="sub-total">خدمة التوصيل</h4>
+              <p>30.20 ر.س</p>
+            </div>
+            <div class="caher-box">
+              <h3 class="sub-total">السعر الكلي</h3>
+              <p>30.20 ر.س</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="foot">
+            <h3>
+              <a href="index.html"
+                ><i class="fas fa-shopping-bag"></i> متجر Saro1
+              </a>
+            </h3>
+            <p>
+           مرحبا بكم في متجر saro1 
+تسوق واختار مايناسبك من منتجاتنا المميزه  نحن في خدمتكم ..
+            </p>
+            <div class="social">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+          <div class="foot">
+            <h3>معلومات عنا</h3>
+            <p class="info">البريد الالكتروني</p>
+            <span>saro1_store@hotmail•com</span>
+            <p class="info">الهاتف</p>
+            <span>0503600937</span>
+            <p class="info">العنوان</p>
+            <span>المملكة العربية السعودية - جدة</span>
+          </div>
+          <div class="foot">
+            <h3>خدماتنا</h3>
+            <ul>
+              <li><a href="#">الرئيسية</a></li>
+              <li><a href="#">معلومات عنا </a></li>
+              <li><a href="#">دعم العملاء</a></li>
+              <li><a href="#">مركز الدعم</a></li>
+            </ul>
+          </div>
+          <div class="foot">
+            <h3>من نحن</h3>
+            <ul>
+              <li><a href="#">تواصل معنا</a></li>
+              <li><a href="#">انشاء حساب</a></li>
+              <li><a href="#">الشروط والاحكام</a></li>
+              <li><a href="#">سياسة التوصيل</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-copy">
+          جميع الحقوق محفوظه لدي <span>متجر Saro1</span> &copy;
+          <span class="year"></span>
+        </div>
+      </div>
+    </footer>
+    <!--=============== SCROLL UP ===============-->
+    <button class="scroll-up"><i class="fas fa-arrow-up"></i></button>
+    <!--=============== STYLE SWITCHER ===============-->
+    <div class="swither">
+      <p><span class="fas fa-gear gear"></span></p>
+      <div class="all-color">
+        <span class="fas color fa-check" data-color="color-1"></span>
+        <span class="fas color" data-color="color-2"></span>
+        <span class="fas color" data-color="color-3"></span>
+        <span class="fas color" data-color="color-4"></span>
+        <span class="fas color" data-color="color-5"></span>
+      </div>
+    </div>
+    <!--=============== SWIPER JS ===============-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!--=============== JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
+WS
